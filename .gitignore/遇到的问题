@@ -1,5 +1,0 @@
-在创建数据目录的时候用 ./mysqld –initialize   会报一些错误，由于知识有限而不会改，所以通过网上的一些
-资料而找到一句代替的命令：bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
-
-在启动测试时（service mysqld start）可能会提示/var/log/mariadb/mariadb.log /var/run/mariadb/maridbpid 不存在之类的问题，
-便创建这些文件并修改其权限为mysql。
